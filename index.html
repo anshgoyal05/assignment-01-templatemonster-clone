@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>CAH - Personal Portfolio Elementor Kit</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,8 +17,8 @@
 <body>
 
 
-    <div id="main">
-        <nav>
+    <div class="headerContainer">
+        <nav class="navBar">
             <h2>CAH</h2>
             <ul>
                 <li><a href="#">HOME</a></li>
@@ -22,19 +28,24 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
-        <div>
-            <h1>I AM LORA MARTIN<br>A CREATIVE DESIGNER</h1>
+        <div class="headerContent">
+            <h1>I AM LORA MARTIN<br>A CREATIVE DESIGNER</h1><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,</p>
-            <br>
-            <hr>
-            <img src="images/facebook.png" alt="facebook">
-            <img src="images/twitter.png" alt="twitter">
-            <img src="images/youtube.png" alt="youtube">
+            <br><br>
+            <hr><br>
+            <div class="socalMediaIcons">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJZ3KEjjtaOIR0VUeYZuVnVioFS0bbuk3j8piZjQW9g&s=10"
+                    alt="facebook">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgBXhn0I1S7DSlQNEBvpJ7QVfHpcvPaCvvThT_Ru44vg&s=10"
+                    alt="twitter">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWexDYoKFkcSoLJxwYEeXaR9BzfaHEfghzUuLHIFU6w&s=10"
+                    alt="youtube">
+            </div>
         </div>
     </div>
 
 
-    <div>
+    <div class="servicesProvided">
         <figure>
             <img src="https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-3-7.png"
                 alt="icon">
@@ -62,8 +73,8 @@
     </div>
 
 
-    <div>
-        <div>
+    <div class="commitmentProvided">
+        <div class="itemsImages">
             <img src="https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-04-3.jpg"
                 alt="image">
             <img src="https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-05-3.jpg"
@@ -73,24 +84,26 @@
             <img src="https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/1000x1000-07-3.jpg"
                 alt="image">
         </div>
-        <div>
-            <h2>COMMITMENT TO QUALITY AND SUPPORT</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                mattis,
-                pulvinar dapibus leo.</p>
-        </div>
-        <div>
-            <img src="https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-2-7.png"
-                alt="image">
+        <div class="commitmentContent">
+            <div class="commitmentText">
+                <h2>COMMITMENT TO QUALITY AND SUPPORT</h2><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis,
+                    pulvinar dapibus leo.</p>
+            </div>
+            <div class="commitmentImg">
+                <img src="https://elementorkits.c-kav.com/demo-01/onepage2/wp-content/uploads/sites/5/2021/04/icon-2-7.png"
+                    alt="image">
+            </div>
         </div>
     </div>
 
 
-    <div>
-        <div>
-            <img src="" alt="icon">
+    <div class="personalDetailsContainer">
+        <div class="personalPic">
+            <img src="images/personalPic.png" alt="personalPic">
         </div>
-        <div>
+        <div class="personalDetails">
             <h2>PERSONAL DETAILS</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
                 mattis,
@@ -100,43 +113,45 @@
                 elit.
                 Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
             <ul>
-                <li>BIRTHDAY : 1990 OCTOBER 2</li>
-                <li>EMAIL : ME@DOMAIN.COM</li>
-                <li>CONTACT : +1234-567-890</li>
-                <li>SPECIALISE : DESIGN & DEVELOPMENTS</li>
-                <li>COUNTRY : AUSTRALIA</li>
+                <b>
+                    <li>BIRTHDAY : 1990 OCTOBER 2</li>
+                    <li>EMAIL : ME@DOMAIN.COM</li>
+                    <li>CONTACT : +1234-567-890</li>
+                    <li>SPECIALISE : DESIGN & DEVELOPMENTS</li>
+                    <li>COUNTRY : AUSTRALIA</li>
+                </b>
             </ul>
             <button>CONTACT NOW</button>
         </div>
     </div>
 
 
-    <div>
-        <div>
+    <div class="educationContainer">
+        <div class="educationContent">
             <h2>EDUCATION</h2>
             <ul>
                 <li>
-                    <h4>MASTER DEGREE OF DESIGN</h4>
+                    <h3>MASTER DEGREE OF DESIGN</h3>
                     <h4>Mar 2010 - University of Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
                 </li>
                 <li>
-                    <h4>FRONT END ENGINEERING</h4>
+                    <h3>FRONT END ENGINEERING</h3>
                     <h4>Mar 2007 - University of Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
                 </li>
                 <li>
-                    <h4>BACHELOR OF ARTS</h4>
+                    <h3>BACHELOR OF ARTS</h3>
                     <h4>Mar 2005 - University of Design</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua.</p>
                 </li>
             </ul>
         </div>
-        <div>
-            <img src="" alt="image">
+        <div class="educationImg">
+            <img src="images/educationImage.png" alt="education-image">
         </div>
     </div>
 
