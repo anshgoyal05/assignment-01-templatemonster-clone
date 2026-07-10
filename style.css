@@ -171,6 +171,7 @@
     height: 100%;
     object-fit: cover;
     display: block;
+    padding-bottom: 50px;
 }
 
 .personalDetails {
@@ -229,42 +230,43 @@
     margin-left: 80px;
 }
 
-.educationContainer {
+.educationAndWorkContainer {
     display: flex;
     width: 100%;
 }
 
-.educationContent {
+.educationAndWorkContent {
     flex: 1;
-    padding: 110px 0;
+    padding: 120px 0px 0px 0px;
 }
 
-.educationImg {
+.educationAndWorkImg {
     flex: 1;
 }
 
-.educationImg img {
+.educationAndWorkImg img {
     width: 100%;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
     object-fit: cover;
     display: block;
+    padding-bottom: 50px;
 }
 
-.educationContent h2 {
+.educationAndWorkContent h2 {
     font-size: 35px;
     margin-bottom: 35px;
     padding: 25px 100px;
 }
 
-.educationContent ul {
+.educationAndWorkContent ul {
     list-style: none;
     position: relative;
     margin-left: 100px;
     padding-left: 60px;
 }
 
-.educationContent ul::before {
+.educationAndWorkContent ul::before {
     content: "";
     position: absolute;
     left: 8px;
@@ -274,13 +276,13 @@
     background: #e2e2e2;
 }
 
-.educationContent li {
+.educationAndWorkContent li {
     position: relative;
     margin-bottom: 80px;
     padding-left: 60px;
 }
 
-.educationContent li::before {
+.educationAndWorkContent li::before {
     content: "";
     position: absolute;
     left: -61px;
@@ -291,7 +293,7 @@
     border-radius: 50%;
 }
 
-.educationContent li::after {
+.educationAndWorkContent li::after {
     content: "";
     position: absolute;
     left: -45px;
@@ -301,19 +303,191 @@
     background: #e2e2e2;
 }
 
-.educationContent h3 {
+.educationAndWorkContent h3 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.educationContent h4 {
+.educationAndWorkContent h4 {
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 20px;
 }
 
-.educationContent p {
+.educationAndWorkContent p {
     font-size: 15px;
     line-height: 1.8;
     width: 85%;
+}
+
+.featuredContainer {
+    margin-top: 25px;
+    background-color: #FAFBFD;
+    width: 100%;
+    text-align: center;
+}
+
+.featuredContent {
+    padding: 50px;
+}
+
+.featuredContent h2 {
+    font-size: 32px;
+    padding: 20px;
+}
+
+.featuredContent p {
+    font-size: 20px;
+    padding: 10px 300px 10px 300px;
+
+}
+
+.featuredImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.featuredImg figcaption {
+    padding: 10px;
+    text-align: center;
+}
+
+.featuredImg img {
+    height: 250px;
+    width: 250px;
+}
+
+.featuredTable {
+    padding: 25px 0px 80px 0px;
+}
+
+.featuredTable table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+.featuredTable td {
+    background: white;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Add CSS */
+
+
+
+
+.queryContainer {
+    background: linear-gradient(to right,
+            white 50%,
+            rgba(117, 98, 224) 50%);
+    display: flex;
+    padding: 120px;
+}
+
+.queryContent {
+    flex: 3;
+    padding-right: 40px;
+    padding-left: 50px;
+}
+
+.queryContent h2 {
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+
+.queryContent h3 {
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+
+.queryContent p {
+    font-size: 20px;
+}
+
+.queryContent hr {
+    margin: 50px 0;
+    width: 100%;
+    border: none;
+    height: 0.1px;
+    background-color: black;
+}
+
+.queryForm {
+    flex: 4;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.queryForm form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: black;
+}
+
+.queryForm input,
+.queryForm button {
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.queryForm button {
+    width: 25%;
+}
+
+.message {
+    padding: 15px;
+    height: 200px;
+    resize: none;
+}
+
+footer {
+    padding: 50px 0px 50px 0px;
+    background-color: #140748;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+footer h1 {
+    font-size: 40px;
+    padding: 50px;
+}
+
+footer div {
+    display: flex;
+    gap: 20px;
+}
+
+footer img {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    gap: 20px;
+}
+
+footer hr {
+    margin: 20px;
+    width: 70%;
+    border: none;
+    height: 0.1px;
+    background-color: white;
+}
+
+footer p {
+    padding-bottom: 50px;
 }
