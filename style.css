@@ -379,11 +379,60 @@
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 
+.teamContainer {
+    height: 160vh;
+    background:
+        url("https://hub.yamaha.com/wp-content/uploads/2022/03/four_friends_get_together_unsplash.jpg") top center / 100% 65% no-repeat,
+        #FAFBFD;
+}
 
-/* Add CSS */
+.teamPic {
+    height: 90vh;
+}
 
+.teamContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
+.employeeDetails {
+    width: 350px;
+    height: auto;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 
+}
+
+.employeeDetails figure {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.employeeDetails img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.teamLogo {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.teamLogo img {
+    height: 150px;
+}
 
 .queryContainer {
     background: linear-gradient(to right,
